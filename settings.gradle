@@ -1,0 +1,3 @@
+include 'example-stream-source'
+include 'example-stream-sink'
+rootProject.name = 'microservice-labo'

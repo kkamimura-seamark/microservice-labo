@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: demo
+          group: demo1
+        mapinput:
+          destination: demo2
+          group: demo2
+        beaninput:
+          destination: demo3
+          group: demo3
+          
